@@ -12,11 +12,12 @@ int main() {
 
 // variables used 
     string fruit;
+    char request;
     double sugar;
     bool loop = true;
 
-    while(loop = true){
-        cout << "Name a fruit and its sugar content in one cup. To stop determining, type 'stop'. \n";
+    while(loop == true){
+        cout << "Name a fruit and its sugar content in one cup.\n";
         cin >> fruit;
         cin >> sugar;
 
@@ -31,12 +32,14 @@ int main() {
         else 
             cout << fruit << " High sugar fruit \n"; // if both settings dont fit, print the name out and label it as a high sugar fruit. 
 
-         if (fruit == "stop")
-        {
-            loop = false;
-            cout << "bye bye!" "\n";
-        }
+        cout << "Do you want to stop? Type 'Y' if you wish to stop \n";     // asks the user if thhey want to stop 
+        cin >> request;             // takes input from user if they want to stop 
 
+        if (request == 'Y')         // if input is = "Y", kill the loop and say goodbye. 
+    {
+        loop = false;
+        cout << "goodbye";
+    }
     }
     return 0;
 
