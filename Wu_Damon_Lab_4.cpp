@@ -43,4 +43,22 @@ int main() {
     }
     return 0;
 
+    /*
+    Name a fruit and its sugar content in one cup.
+    avocada 1 
+    avocada Low sugar fruit
+    Do you want to stop? Type 'Y' if you wish to stop 
+    n
+    Name a fruit and its sugar content in one cup.
+    strawberries 7 
+    strawberries Low sugar fruit
+    Do you want to stop? Type 'Y' if you wish to stop 
+    n
+    Name a fruit and its sugar content in one cup.
+    orange 14 
+    orange Medium sugar fruit
+    Do you want to stop? Type 'Y' if you wish to stop 
+    Y 
+    goodbye
+    */
 }
